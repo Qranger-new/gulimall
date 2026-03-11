@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.18</version>
+        <version>2.6.13</version>
         <relativePath/>
     </parent>
 
@@ -20,10 +20,15 @@
     <properties>
         <java.version>1.8</java.version>
         <!-- Spring Cloud 2021.x 与 Spring Boot 2.7.x 匹配 -->
-        <spring-cloud.version>2021.0.8</spring-cloud.version>
+        <spring-cloud.version>2021.0.5</spring-cloud.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.atguigu.gulimall</groupId>
+            <artifactId>gulimall-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <!-- Web（包含 Spring MVC + 内置 Tomcat） -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
